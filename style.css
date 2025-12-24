@@ -54,6 +54,28 @@ nav a:hover {
     font-weight: bold;;
 }
 
+/* =========================
+   BOTÃO - HOVER COM ZOOM SUAVE
+========================= */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--primary);
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 600;
+
+    /* Transição suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(249, 115, 22, 0.35);
+}
+
 /* SEÇÕES */
 section {
     padding: 60px 4%;
