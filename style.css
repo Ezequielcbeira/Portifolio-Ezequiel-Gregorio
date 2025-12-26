@@ -180,6 +180,8 @@ span.branco {
     gap: 30px;
     margin-top: 40px;
     font-size: 40px;
+    text-decoration: none;
+    box-decoration-break: none;
 }
 
 h3 {
@@ -259,6 +261,7 @@ span {
         transform: translateY(0);
     }
 }
+
 
 /* RODAPÉ */
 
@@ -351,3 +354,4 @@ span {
         flex-direction: column;
     }
 }
+
